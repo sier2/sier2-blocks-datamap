@@ -2,7 +2,7 @@ from sier2 import Connection
 from sier2.panel import PanelDag
 
 from sier2_blocks.blocks._io import LoadDataFrame
-from .blocks.datamap import RunUMAP, ThisNotThat
+from ..blocks.datamap import RunUMAP, ThisNotThat
 
 def datamap():
     """Load a dataframe and make a datamap using UMAP and thisnotthat."""
