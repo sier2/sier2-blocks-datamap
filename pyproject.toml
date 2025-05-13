@@ -27,16 +27,6 @@ thisnotthat = ">=0.4"
 [tool.poetry.plugins."sier2.library"]
 export = "sier2_blocks_datamap.shelf"
 
-[[tool.mypy.overrides]]
-module = [
-    "sier2",
-    "sier2-blocks",
-    "param",
-    "umap-learn",
-    "thisnotthat",
-]
-ignore_missing_imports = true
-
 [build-system]
 requires = ["poetry-core>=2.1.1"]
 build-backend = "poetry.core.masonry.api"
